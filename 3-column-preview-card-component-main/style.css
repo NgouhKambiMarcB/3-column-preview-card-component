@@ -1,0 +1,75 @@
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-main{
+        background-color: aquamarine;
+        height: 500px;
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        color: aliceblue;
+        font-family: 'poppins', sans-serif;
+    }
+    img{
+        width: 80px;
+        height: 50px;
+    }
+    .sedan{
+        background-color: rgb(221, 144, 2);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 20px;
+    }
+    .suvs{
+        background-color: rgba(10, 99, 94, 0.671);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 20px;
+    }
+    .luxury{
+        background-color: rgb(1, 80, 54);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 20px;
+    }
+    .btn{
+        background-color: antiquewhite;
+        padding: 10px;
+        padding-left: 40px;
+        margin-top: 50px;
+        border-radius: 28px;
+        width: 110px;
+    }
+ #sed.btn{
+    color: rgb(221, 144, 2) ;
+    justify-content: center;
+ }
+ #suv.btn{
+    color: rgba(10, 99, 94, 0.671);
+    justify-content: center;
+ }
+ #lux.btn{
+    color: rgb(1, 80, 54);
+    justify-content: center;
+ }
+ 
